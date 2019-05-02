@@ -22,6 +22,10 @@
   "bugs": {
     "url": "https://github.com/yymm/hooks-vform/issues"
   },
+  "files": [
+    "lib/index.d.ts",
+    "lib/index.min.js"
+  ],
   "homepage": "https://github.com/yymm/hooks-vform#readme",
   "ava": {
     "compileEnhancements": false,
