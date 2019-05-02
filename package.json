@@ -1,0 +1,51 @@
+{
+  "name": "hooks-vform",
+  "version": "0.1.0",
+  "description": "validation and normalize form components using react hooks api and react context api. ",
+  "main": "lib/index.min.js",
+  "scripts": {
+    "build": "rm -rf ./lib && webpack --mode production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yymm/hooks-vform.git"
+  },
+  "keywords": [
+    "react",
+    "hooks",
+    "context",
+    "form"
+  ],
+  "author": "yymm",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yymm/hooks-vform/issues"
+  },
+  "homepage": "https://github.com/yymm/hooks-vform#readme",
+  "ava": {
+    "compileEnhancements": false,
+    "extensions": [
+      "ts"
+    ],
+    "require": [
+      "ts-node/register"
+    ]
+  },
+  "dependencies": {
+    "react": "^16.8.6"
+  },
+  "peerDependencies": {
+    "react": "^16.8.6"
+  },
+  "devDependencies": {
+    "@types/core-js": "^2.5.0",
+    "@types/react": "^16.8.15",
+    "dts-bundle": "^0.7.3",
+    "prettier": "^1.17.0",
+    "ts-loader": "^5.4.5",
+    "typescript": "^3.4.5",
+    "webpack": "^4.30.0",
+    "webpack-cli": "^3.3.1"
+  }
+}
