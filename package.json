@@ -1,6 +1,6 @@
 {
   "name": "hooks-vform",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "validation and normalize form components using react hooks api and react context api. ",
   "main": "lib/index.min.js",
   "scripts": {
