@@ -6,7 +6,7 @@ deploy:
   provider: npm
   email: yuya.yano.6260@gmail.com
   on:
-    branch: master
+    tags: true
   api_key:
     secure: se3cLALCfpQGx0ewlc46aovPUqEJxVNNqkRUON3NzMcOeBZXaeXnkkfZtY3ZQBkomKT+gccpE4aVlKQ8QIjQ/y2qtjPzV2QBTzeyHkIbTRlYYoM65HNJ3XmTKHZZFS8+l+kIqxtIjvsKa16OyIwjQWO1SMccTzwrtxHYPb6F7d+r2ME4bHjOz4fIUb9v83zvi60bcusEhuGWP6G4/WqBbCFruWZTgQF8geHhOjYP3/8qxf6UUQ+UozjTwkMPMWaZWXMDvUxWVezNts1r0c2EN6vh6vXDh8XMMd9W3N2XFV9o56tq37EqD8XCffZVmhOR4+cJN2MnIeRmnYlmSCNsEDwLRwE5IawgHCOpFQpxK0rlaPb2yT9LWwvK4pVECQwpteWlp/FYERohhXe8rj1RCMtp/b0PuNFJfzSaKRz28jJewyIQimhbANyGmtDWh52dvtI5bxJvWU2mppnB4LQO+ekNbBK1Y9w9hwx5evh9h2fOLVCh8qrVVPVhGUT7P2koaD2EItk+m4D1LnA3q7UIKC/f0wmCzUW+6LmbrcQKj+8t4pNcHFSZ2qfwTV3mq04d/WZ1ZHE3vGjXPukYlDWU5ChVf7Tug81C4kvIYHQuTtkV/y7Ox+Z7XyMeKx5rnod7pSlElwvnvtWRPykmknoiGGad7dZdFztT82q+CMVsh50=
   skip_cleanup: true
