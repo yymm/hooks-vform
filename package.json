@@ -3,6 +3,7 @@
   "version": "0.1.6",
   "description": "validation and normalize form components using react hooks api and react context api. ",
   "main": "lib/index.min.js",
+  "typings": "types/index.d.ts",
   "scripts": {
     "build": "rm -rf ./lib && webpack --mode production",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -23,7 +24,7 @@
     "url": "https://github.com/yymm/hooks-vform/issues"
   },
   "files": [
-    "hooks-vform.d.ts",
+    "types/index.d.ts",
     "lib/index.min.js"
   ],
   "homepage": "https://github.com/yymm/hooks-vform#readme",

@@ -11,7 +11,7 @@ DtsBundlePlugin.prototype.apply = function(compiler) {
     dts.bundle({
       name: "hooks-vform",
       main: rootDir + "/lib/**/*.d.ts",
-      out: rootDir + "/hooks-vform.d.ts",
+      out: rootDir + "/types/index.d.ts",
       removeSource: true,
       outputAsModuleFolder: true
     });
